@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	port := 8081
+	port := 8080
 	listener, err := net.Listen("tcp", fmt.Sprintf(":%d", port))
 	if err != nil {
 		panic(err)
